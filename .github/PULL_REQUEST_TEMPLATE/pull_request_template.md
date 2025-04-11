@@ -1,23 +1,45 @@
----
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
----
+## **Summary**
+Provide a brief summary of the changes made in this MR.
 
-**Please describe the bug this fixes or the feature this adds.**
+## **Related Issues**
+Link to any related issues (e.g., `Closes #123` or `Fixes #456`).
 
-**Please describe how you tested this change. Include unit tests whenever possible.**
+## **Changes Introduced**
+- [ ] Bug fix  
+- [ ] New feature  
+- [ ] Performance improvement  
+- [ ] Documentation update  
+- [ ] Refactoring  
+- [ ] Other (describe below)
 
-**Did you create or modify any associated documentation with this change? If documentation is not included in PR, please link to related documentation.**
+### **Description of Changes**
+A clear and concise explanation of what has been changed and why.
 
-**If you added or modified HTML, did you check that it was 508 compliant?**
+## **How to Test**
+Steps to validate that the changes work as expected:
+1. **Command(s) to run**: Provide exact commands for testing.
+2. **Expected output**: Describe the expected results.
+3. **Sample test files**: Mention or attach test input files if applicable.
 
-**Please tag any specific reviewers you would like to review this PR**
+## **Pipeline Status**
+- [ ] CI/CD pipeline passes  
+- [ ] Code style/linting checks pass  
+- [ ] Unit tests added/updated  
+- [ ] Integration tests added/updated  
+- [ ] Documentation updated (if needed)  
 
-**Please include the following checks for open source contributing?**
+## **Breaking Changes?**
+- [ ] Yes  
+- [ ] No  
 
-* [ ] Did you check for sensitive data, and remove any?
-* [ ] Are additional approvals needed for this change?
-* [ ] Are there potential vulnerabilities or licensing issues with any new dependencies introduced?
+If **yes**, describe what is affected and how to migrate.
+
+## **Reviewer Checklist**
+- [ ] Code is well-structured and readable  
+- [ ] Changes are justified and necessary  
+- [ ] No major performance regressions  
+- [ ] Tests are sufficient and meaningful  
+- [ ] Documentation is clear and updated  
+
+## **Additional Notes**
+Any extra context or considerations for the reviewers.
