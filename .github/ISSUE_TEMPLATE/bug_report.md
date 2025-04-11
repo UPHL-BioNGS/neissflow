@@ -1,44 +1,32 @@
----
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
+## **Describe the Bug**
+A clear and concise description of the issue, including the affected tool, pipeline, or script.
 
----
+## **To Reproduce**
+Steps to reproduce the behavior, including:
+1. **Command(s) run**: Provide the exact command(s) used.
+2. **Input files**: Describe or attach relevant input files (e.g., FASTQ, FASTA).
+3. **Environment**:
+   - Conda/Mamba environment (`conda list` or `mamba list`)
+   - Singularity/Docker image version (if applicable)
+   - Git commit hash (`git rev-parse HEAD` if using a repository)
+4. **Error message**: Copy and paste the exact error message or traceback.
 
-**Describe the bug**
-A clear and concise description of what feature is not working.
+## **Expected Behavior**
+A clear and concise description of what should happen.
 
-**Impact**
-Please describe the impact this bug is causing to your program or organization.
+## **Screenshots (if applicable)**
+If applicable, attach screenshots, plots, or error outputs.
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+## **Logs & Debug Info**
+- Attach relevant log files (`.log`, `.err`, `.out`). To save logs ` <command> 2>&1 | tee -a log.txt`
+- Run the script with `--verbose` or `--debug` (if applicable) and attach the output.
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+## Possible fixes
+(If you can, link to the line of code that might be responsible for the problem)
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+/label ~bug ~reproduced ~needs-investigation
+/cc @project-manager
+/assign @qa-tester
 
-**Logs**
-If applicable, please attach logs to help describe your problem.
-
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+## **Additional Context**
+Any other relevant details, such as links to related issues or discussions.
