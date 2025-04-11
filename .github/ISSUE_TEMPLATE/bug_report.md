@@ -1,3 +1,12 @@
+---
+name: Bug report
+about: Create a report to help us improve
+title: ''
+labels: bug, reproduced, needs-investigation
+assignees: ''
+
+---
+
 ## **Describe the Bug**
 A clear and concise description of the issue, including the affected tool, pipeline, or script.
 
@@ -23,10 +32,6 @@ If applicable, attach screenshots, plots, or error outputs.
 
 ## Possible fixes
 (If you can, link to the line of code that might be responsible for the problem)
-
-/label ~bug ~reproduced ~needs-investigation
-/cc @project-manager
-/assign @qa-tester
 
 ## **Additional Context**
 Any other relevant details, such as links to related issues or discussions.
