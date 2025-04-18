@@ -194,7 +194,7 @@ Features that are currently being updated or will be added in the future include
 - Apurva Shrivastava
 - Eric Tran
 - Matthew Schmerer
-- Sandeep Joseph
+- [Sandeep Joseph](https://github.com/sandeepjosejoseph)
 
 ### Special thanks to
 - Jack Cartee
