@@ -41,7 +41,7 @@ neissflow has been tested on Nextflow Tower and will run as any other pipeline. 
   
   - Log into your linux terminal 
 
-  - Ensure you have [Nextflow](https://www.nextflow.io/docs/latest/install.html#install-page) installed
+  - Ensure you have followed the instructions in [installation.md](./docs/installation.md)
 
   - Execute neissflow as instructed below. (Using whatever profile is suited to your computing environment in place of all)
 
