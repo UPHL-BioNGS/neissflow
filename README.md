@@ -8,7 +8,9 @@
 [![neissflow version](https://img.shields.io/badge/neissflow%20version-2.0.0-1E90FF)](https://github.com/CDCgov/neissflow/-/releases)
 
 # neissflow
-neissflow is a Nextflow pipeline for Neisseria gonorrhoeae (Ng) isolate analysis. The mission of neissflow is to consolidate commonly used bioinformatics tools for Ng analysis into a parallel and scalable pipeline. Having all your tools in one place allows you to rapidly generate data and respond quickly to public health demands!
+neissflow is a Nextflow pipeline for Neisseria gonorrhoeae (Ng) isolate analysis. The mission of neissflow is to consolidate commonly used bioinformatics tools for Ng analysis into a parallel and scalable pipeline. Having all your tools in one place allows you to rapidly generate data and respond quickly to public health demands!  
+  
+neissflow is currently undergoing validation in accordance with Next-Generation Sequencing (NGS) quality metrics and Quality Manual for Microbiological Laboratories (QMML) standards; users are advised to interpret the results with caution until official validation is complete.
 
 <center><img src="docs/images/new_neissflow.png" height=1046 width=779/></center>
 
