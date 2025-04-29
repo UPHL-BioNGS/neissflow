@@ -189,6 +189,8 @@ Features that are currently being updated or will be added in the future include
 - Producing a better annotated phylogenetic tree visualization
 - Adding more positions of interest to the AMR Profiler variant analysis step based on recent findings
 
+A recent abstract can be found [here](docs/neissflow_Abstract_APHL_2025.pdf)
+
 ## Authors and Acknowledgment
 ### Authors / Contributors
 - Kat Morin
