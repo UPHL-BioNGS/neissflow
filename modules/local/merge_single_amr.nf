@@ -2,7 +2,7 @@ process MERGE_SINGLE_AMR {
     tag "$sample_name"
     label 'process_single'
 
-    container "https://depot.galaxyproject.org/singularity/centos:7.9.2009"
+    container "centos:centos7.9.2009"
 
     input:
     tuple val(sample_name), path(variants), path(blastn), path(mlst), path(ngmaster)

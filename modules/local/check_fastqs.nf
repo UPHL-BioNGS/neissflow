@@ -2,7 +2,7 @@ process CHECK_FASTQS {
     tag "$sample_name"
     label 'process_low' 
 
-    container "https://depot.galaxyproject.org/singularity/centos:7.9.2009"
+   container "centos:centos7.9.2009"
 
     input:
     tuple val(sample_name), path(reads)

@@ -1,7 +1,7 @@
 process ASSEMBLY_STATS {
     label 'process_low'
 
-    container "docker://biopython/biopython:latest"
+    container "mchether/py3-bio:v2"
 
     input:
     path(all_assemblies)

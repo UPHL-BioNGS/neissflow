@@ -1,7 +1,7 @@
 process INITIAL_MERGE {
     label 'process_single'
 
-    container "https://depot.galaxyproject.org/singularity/centos:7.9.2009"
+    container "centos:centos7.9.2009"
 
     input:
     path(fastq_qc)

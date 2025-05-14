@@ -2,7 +2,7 @@ process PARSE_FASTP_REPORTS {
     tag "$sample_name"
     label 'process_low'
 
-    container "https://depot.galaxyproject.org/singularity/python%3A3.7"
+    container "quay.io/biocontainers/python:3.8.3"
 
     input:
     tuple val(sample_name), path(json_file)

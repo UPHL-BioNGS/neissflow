@@ -4,7 +4,7 @@ process MASH {
 
     container "${ workflow.containerEngine == 'singularity' && !task.ext.singularity_pull_docker_container ?
         'https://depot.galaxyproject.org/singularity/mash:2.3--he348c14_1':
-        'biocontainers/mash:2.3--he348c14_1' }"
+        'quay.io/biocontainers/mash:2.3--he348c14_1' }"
 
     input:
     tuple val(sample_name), file(reads)
