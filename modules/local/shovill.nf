@@ -29,7 +29,6 @@ process SHOVILL {
         shovill \\
             --R1 ${reads[0]} \\
             --R2 ${reads[1]} \\
-            --tmpdir \$TMPDIR \\
             --cpus ${task.cpus} \\
             --ram $memory \\
             --outdir ./ \\
@@ -49,7 +48,6 @@ process SHOVILL {
         shovill \\
             --R1 ${reads[0]} \\
             --R2 ${reads[1]} \\
-            --tmpdir \$TMPDIR \\
             --cpus ${task.cpus} \\
             --ram $memory \\
             --outdir ./ \\

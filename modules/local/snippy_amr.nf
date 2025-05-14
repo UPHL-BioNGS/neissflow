@@ -5,8 +5,8 @@ process SNIPPY_AMR {
     label 'process_medium'
 
     container "${ workflow.containerEngine == 'singularity' && !task.ext.singularity_pull_docker_container ?
-        'https://depot.galaxyproject.org/singularity/snippy:4.6.0--hdfd78af_4' :
-        'quay.io/biocontainers/snippy:4.6.0--hdfd78af_4' }"
+        'staphb/snippy:4.6.0-SC2' :
+        'staphb/snippy:4.6.0-SC2' }"
     
     input:
     tuple val(sample_name), path(fastq_paths)

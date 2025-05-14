@@ -3,8 +3,8 @@ process SNIPPY {
     label 'process_medium'
 
     container "${ workflow.containerEngine == 'singularity' && !task.ext.singularity_pull_docker_container ?
-        'https://depot.galaxyproject.org/singularity/snippy:4.6.0--hdfd78af_4' :
-        'quay.io/biocontainers/snippy:4.6.0--hdfd78af_4' }"
+        'staphb/snippy:4.6.0-SC2' :
+        'staphb/snippy:4.6.0-SC2' }"
     
     input:
     tuple val(sample_name), file(input)
@@ -43,7 +43,7 @@ process SNIPPY {
         filename=$ref
         outdir="\${filename%.*}"
 
-        snippy --cpus ${task.cpus} --prefix $sample_name --outdir \${outdir}/$sample_name --ref $ref --R1 $read_1 --R2 $read_2 --tmpdir \$TMPDIR --minfrac 0.9 --basequal 20
+        snippy --cpus ${task.cpus} --prefix $sample_name --outdir \${outdir}/$sample_name --ref $ref --R1 $read_1 --R2 $read_2 --minfrac 0.9 --basequal 20
 
         cat <<-END_VERSIONS > versions.yml
         "${task.process}":
