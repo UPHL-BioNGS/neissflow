@@ -2,8 +2,8 @@ process GUBBINS {
     label 'process_high'
 
     container "${ workflow.containerEngine == 'singularity' && !task.ext.singularity_pull_docker_container ?
-        'https://depot.galaxyproject.org/singularity/gubbins%3A3.3.5--py39pl5321he4a0461_0' :
-        'quay.io/biocontainers/gubbins:3.3.5--py39pl5321he4a0461_0' }"
+        'staphb/gubbins:3.3.5' :
+        'staphb/gubbins:3.3.5' }"
 
     input:
     path(clean_full_aln)
@@ -26,6 +26,7 @@ process GUBBINS {
 
     script:
     """
+    export NUMBA_CACHE_DIR=/tmp
     file=$clean_full_aln
     name=\${file%%.clean.full.aln}
     run_gubbins.py -c ${task.cpus} -i ${params.max_itr} -u -p \$name -t raxml $clean_full_aln
